@@ -2,9 +2,80 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
 	<title>Michael Kostolnik</title>
 </head>
 <body>
-	<p>Hello World!!</p>
+	<header>
+		<nav>
+			<div class="row">
+				<a class="logo" href="#">Michael Kostolnik</a>
+				<ul class="main-nav">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="hero-text-box">
+			<h1>Hi, I'm Mike</h1>
+		</div>
+	</header>
+
+	<section class="section-projects">
+		<div class="row">
+			<h2>Projects</h2>
+		</div>
+
+		<div class="row project-row">
+			<div class="col span-1-of-2">
+				<h3>Jiu-Jitsu Tube</h3>
+				<p> A video based social network for members of my jiu-jitsu gym to cut through the clutter of youtube jiu-jitsu videos to share only the best content. It is also now the centralized location for my members of my gym to share their competition videos </p>
+			</div>
+			<div class="col span-1-of-2">
+				<img src="img/jits.png">
+			</div>
+		</div>
+
+		<div class="row project-row">
+			<div class="col span-1-of-2">
+				<img src="img/stargazing.png">
+			</div>
+			<div class="col span-1-of-2">
+				<h3>Stargazing Weather</h3>
+				<p>This simple app allows users to quickly find out which of the next ten nights will be good for stargazing based on how much cloud cover there will be. It also shows users if the International Space Station will be visible from their location</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="about-section">
+		<div class="row">
+			<h2>About Me</h2>
+		</div>
+		<div class="row">
+			<div class="">
+				<p>
+					I am a web developer focused on building interesting projects with a compelling user experience. I'm always thinking about the perspective of the user as I am building apps. I love to learn about how to write better code and am always striving to improve.<br><br>I'm active in the San Diego Javascript community and when I'm not coding you can find me hiking at Mission Trails Regional Park or at 10th Planet Jiu-Jitsu.
+				</p>
+				<img src="img/me.jpeg">
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="row">
+			<h3>Get in Touch</h3>
+		</div>
+		<div class="row icons">
+			<a href="#"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+		</div>
+
+	</footer>
 </body>
 </html>
