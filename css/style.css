@@ -139,6 +139,9 @@ header {
 /* PROJECTS */
 /* ------------------------------------------ */
 
+.section-projects i {
+	font-size: 3em;
+}
 .project-row {
 	margin-bottom: 30px;
 }
@@ -151,6 +154,25 @@ header {
 	padding: 0 2%;
 }
 
+.project-row p {
+	margin-bottom: 20px;
+}
+
+.project-link {
+	text-align: center;
+}
+
+.project-link a:link,
+.project-link a:visited {
+	transition: all 0.2s;
+	color: inherit;
+	text-decoration: none;
+}
+
+.project-link a:hover,
+.project-link a:active {
+	color: #3498db;
+}
 /* ------------------------------------------ */
 /* ABOUT SECTION */
 /* ------------------------------------------ */
@@ -174,10 +196,8 @@ header {
 
 footer {
 	background-color: #333333;
-	color: rgba(255, 255, 255, 0.8)
-}
-
-footer {
+	color: rgba(255, 255, 255, 0.8);
+	margin-top: 50px;
 	padding: 20px 0;
 }
 
@@ -188,6 +208,11 @@ footer {
 .icons a:link,
 .icons a:visited {
 	color: rgba(255, 255, 255, 0.8)
+}
+
+.icons a:hover,
+.icons a:active {
+	color: #3498db;
 }
 
 .icons a {

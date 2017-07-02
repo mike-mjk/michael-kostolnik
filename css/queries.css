@@ -1,0 +1,86 @@
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+      width: 100%;
+      padding: 0 2%;
+  }
+  
+  .row { padding: 0 2%; }
+	
+	.section-projects i {
+		font-size: 2em;
+	}
+	
+	.section-projects img {
+		padding-top: 30px;
+	}
+}
+
+@media only screen and (max-width: 1023px) {
+  body { font-size: 18px; }
+  
+	.about-section img {
+		height: 225px;
+		width: 225px;
+		float: right;
+	}
+
+	.about-section p {
+		width: 60%;
+		float: left;
+	}
+   
+}
+
+@media only screen and (max-width: 767px) {
+  body { font-size: 16px; }
+  
+  .row,
+  .hero-text-box { padding: 0 4%; }
+  .col { 
+      width: 100%;
+      margin: 0 0 4% 0;
+  }
+
+  .col.project-link {
+  	width: 50%;
+  }
+
+  .stargazing-text {
+  	position:relative;
+  	bottom: 250px;
+  }
+  
+  .stargazing-img {
+  	position: relative;
+  	top: 250px;
+  }
+
+	.about-section img {
+		height: 225px;
+		width: 225px;
+		text-align: center;
+	}
+
+	.about-section p {
+		width: 100%;
+		/*float: left;*/
+	}
+  
+  .self-img {
+  	text-align: center;
+  }
+
+  .self-img img {
+  	float: none;
+  	position: relative;
+  	top: 20px;
+  }
+
+  h1 { font-size: 180%; }
+  h2 { font-size: 150%; }
+    
+}    
+@media only screen and (max-width: 480px) {
+    /*section { padding: 25px 0; }
+    .contact-form {width: 100%; }*/
+}
