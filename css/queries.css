@@ -81,6 +81,25 @@
     
 }    
 @media only screen and (max-width: 480px) {
-    /*section { padding: 25px 0; }
-    .contact-form {width: 100%; }*/
+  .stargazing-text {
+  	position:relative;
+  	bottom: 180px;
+  }
+  
+  .stargazing-img {
+  	position: relative;
+  	top: 220px;
+  }
+
+  .section-projects img {
+		padding-top: 10px;
+	}
+
+	section {
+		padding-top: 40px;
+	}
+
+	.about-section {
+		padding-top: 0px;
+	}
 }
