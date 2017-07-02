@@ -35,4 +35,20 @@ $(document).ready(function() {
 	      }
 	    }
 	  });
+
+	$('.js-nav-icon').click(function() {
+		var nav = $('.js-main-nav');
+		var icon = $('.js-nav-icon i');
+		nav.slideToggle(400);
+		if (icon.hasClass('fa-bars')) {
+			console.log('has fa-bars');
+			icon.addClass('fa-times');
+			icon.removeClass('fa-bars');
+		}
+		else if (icon.hasClass('fa-times')) {
+			icon.addClass('fa-bars');
+			icon.removeClass('fa-timebars');
+		}
+
+	});
 })
