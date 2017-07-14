@@ -40,6 +40,9 @@
       width: 100%;
       margin: 0 0 4% 0;
   }
+	.project-row {
+		margin-bottom: 0px;
+	}
 	
 	.mobile-nav-icon {
 		display: inline-block;
